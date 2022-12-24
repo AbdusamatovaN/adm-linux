@@ -44,8 +44,8 @@ mv x* man.dir
 cd man.dir
 cat x* > man.txt
 compare man.txt ~/man.txt
-cd ~
 
+cd ~
 echo "Hello" > man.tmp
 echo "World" >> man.tmp
 cat man.txt >> man.tmp
